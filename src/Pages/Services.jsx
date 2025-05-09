@@ -5,6 +5,7 @@ import Sistemas from "../assets/Configuración-de-sistemas-operativos.webp"
 import Web from "../assets/Desarrollo-de-sitios-web-modernos-y-funcionales.webp"
 import Seguridad from "../assets/Ciberseguridad-integral-para-empresas.webp"
 import Legal from "../assets/Asesoramiento-legal-y-cumplimiento-normativo-en-tecnología.webp"
+import { RevealOnScroll } from "../components/RevealOnScroll";
 
 export const Services = () => {
     const services = [
@@ -139,24 +140,26 @@ export const Services = () => {
         <div className="min-w-screen min-h-screen flex flex-col gap-10 justify-center items-center">
             {services.map((service) => {
                 return (
-                    <div className="servicioUnico w-full flex flex-col gap-3 justify-center items-center">
-                        <div className="w-full h-40 md:h-80 bg-cover bg-center flex justify-center items-center back" style={{ backgroundImage: `url(${service.image})` }}>
-                            <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-[#e5f6ff] text-center w-screen h-full bg-black/50 backdrop-blur-sm flex justify-center items-center">{service.title}</h2>
+                    <RevealOnScroll>
+                        <div className="servicioUnico w-full flex flex-col gap-3 justify-center items-center">
+                            <div className="w-full h-40 md:h-80 bg-cover bg-center flex justify-center items-center back" style={{ backgroundImage: `url(${service.image})` }}>
+                                <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-[#e5f6ff] text-center w-screen h-full bg-black/50 backdrop-blur-sm flex justify-center items-center">{service.title}</h2>
+                            </div>
+                            <h3 className="h3 font-semibold text-3xl text-[#e5f6ff] text-center">{service.subtitle}</h3>
+                            <p className="information font-medium text-lg md:text-xl lg:text-2xl text-[#e5f6ff] text-center w-auto md:max-w-1/2">{service.description}</p>
+                            <div className="iconos flex gap-20 gap-y-10 md:gap-y-5 md:gap-5 justify-center items-center flex-wrap w-7/10">
+                                {service.icons.map((icon) => {
+                                    return (
+                                        <div className="flex flex-col items-center justify-center gap-3 w-1/5">
+                                            <i className={`${icon.class} text-5xl md:text-6xl lg:text-7xl text-[#E5F6FF]`}></i>
+                                            <p className="text-[#E5F6FF] font-medium text-[16px] md:text-[18px] lg:text-[20px] text-center">{icon.text}</p>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                            <Link to="/contacto" className="botonContacto text-lg md:text-xl lg:text-2xl font-medium border-2 bg-transparent border-[#522bde] hover:bg-[#522bde] rounded-lg transition-all duration-300">{service.button}</Link>
                         </div>
-                        <h3 className="h3 font-semibold text-3xl text-[#e5f6ff] text-center">{service.subtitle}</h3>
-                        <p className="information font-medium text-lg md:text-xl lg:text-2xl text-[#e5f6ff] text-center w-auto md:max-w-1/2">{service.description}</p>
-                        <div className="iconos flex gap-20 gap-y-10 md:gap-y-5 md:gap-5 justify-center items-center flex-wrap w-7/10">
-                            {service.icons.map((icon) => {
-                                return (
-                                    <div className="flex flex-col items-center justify-center gap-3 w-1/5">
-                                        <i className={`${icon.class} text-5xl md:text-6xl lg:text-7xl text-[#E5F6FF]`}></i>
-                                        <p className="text-[#E5F6FF] font-medium text-[16px] md:text-[18px] lg:text-[20px] text-center">{icon.text}</p>
-                                    </div>
-                                )
-                            })}
-                        </div>
-                        <Link to="/contacto" className="botonContacto text-lg md:text-xl lg:text-2xl font-medium border-2 bg-transparent border-[#522bde] hover:bg-[#522bde] rounded-lg transition-all duration-300">{service.button}</Link>
-                    </div>
+                    </RevealOnScroll>
                 )
             })}
         </div>
