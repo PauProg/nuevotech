@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
+import { RevealOnScroll } from "../Components/RevealOnScroll";
 import "./Services.css"
 import Redes from "../assets/Instalación-y-mantenimiento-de-redes.webp"
 import Sistemas from "../assets/Configuración-de-sistemas-operativos.webp"
 import Web from "../assets/Desarrollo-de-sitios-web-modernos-y-funcionales.webp"
 import Seguridad from "../assets/Ciberseguridad-integral-para-empresas.webp"
 import Legal from "../assets/Asesoramiento-legal-y-cumplimiento-normativo-en-tecnología.webp"
-import { RevealOnScroll } from "../components/RevealOnScroll";
 
 export const Services = () => {
     const services = [
