@@ -1,0 +1,22 @@
+.about {
+    padding: 40px 0 30px 0;
+    margin-bottom: 30px;
+}
+
+.h2 {
+    margin-bottom: 40px;
+}
+
+.texto {
+    padding: 0 55px;
+}
+
+@media (width < 64rem) {
+    .texto {
+        padding: 0 20px;
+    }
+
+    .bloqueInfo {
+        padding-bottom: 60px;
+    }
+}

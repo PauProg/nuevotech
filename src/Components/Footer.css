@@ -1,0 +1,41 @@
+.footer {
+    background-image: url("../assets/header-bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 30px 0 50px 0;
+    padding-bottom: 50px;
+}
+
+.favicon {
+    margin-top: 60px;
+}
+
+.h3 {
+    margin-top: 10px;
+}
+
+.contactos {
+    margin-top: 30px;
+}
+
+.item {
+    padding: 15px 30px;
+}
+
+.socialMedia {
+    padding: 10px 20px;
+}
+
+@media (width < 48rem) {
+    .favicon {
+        margin-top: 30px;
+    }
+
+    .contactos {
+        margin-top: 15px;
+    }
+
+    .footer {
+        margin: 0 0 50px 0;
+    }
+}

@@ -1,0 +1,27 @@
+.botonContacto {
+    padding: 10px 20px;
+}
+
+.botonContacto:last-of-type {
+    margin-bottom: 80px;
+}
+
+.servicioUnico:first-of-type {
+    padding: 0 0 20px 0;
+}
+
+.servicioUnico {
+    padding: 20px 0;
+}
+
+.h3 {
+    margin: 10px 0 20px 0
+}
+
+.information {
+    margin-bottom: 30px;
+}
+
+.iconos {
+    margin-bottom: 30px;
+}
