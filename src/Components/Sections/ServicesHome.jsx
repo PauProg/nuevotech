@@ -43,7 +43,7 @@ export const ServicesHome = () => {
                     servicios.map((servicio) => (
                         <RevealOnScroll>
                             <div className="md:w-auto service bg-[#1C1C1E] border-[#1E3A8A] border-3 rounded-2xl flex flex-col items-center min-h-[250px] max-w-2xl" key={servicio.titulo}>
-                                <h3 className="w-9/10p h3 font-semibold text-xl md:text-2xl lg:text-3xl text-center">{servicio.titulo}</h3>
+                                <h3 className="w-9/10 h3 font-semibold text-xl md:text-2xl lg:text-3xl text-center">{servicio.titulo}</h3>
                                 <p className="p text-center text-md md:text-lg lg:text-xl">{servicio.descripcion}</p>
                                 <img className="w-[70%] h-[50%] rounded-lg object-cover" src={servicio.img} alt={servicio.titulo} />
                             </div>
