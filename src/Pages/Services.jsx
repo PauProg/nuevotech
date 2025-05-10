@@ -142,7 +142,7 @@ export const Services = () => {
                 return (
                     <RevealOnScroll>
                         <div className="servicioUnico w-full flex flex-col gap-3 justify-center items-center">
-                            <div className="w-full h-40 md:h-80 bg-cover bg-center flex justify-center items-center back" style={{ backgroundImage: `url(${service.image})` }}>
+                            <div className="titulo w-full h-40 md:h-80 bg-cover bg-center flex justify-center items-center back" style={{ backgroundImage: `url(${service.image})` }}>
                                 <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-[#e5f6ff] text-center w-screen h-full bg-black/50 backdrop-blur-sm flex justify-center items-center">{service.title}</h2>
                             </div>
                             <h3 className="h3 font-semibold text-3xl text-[#e5f6ff] text-center">{service.subtitle}</h3>
