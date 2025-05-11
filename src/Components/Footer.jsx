@@ -1,6 +1,6 @@
 import "./Footer.css";
 import Icon from "/favicon.webp";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { Separador } from "./Separador";
 
 export const Footer = () => {
@@ -65,7 +65,7 @@ export const Footer = () => {
                     }
                 </div>
                 <Separador />
-                <p className="text-base w-7/10 md:w-8/10 lg:w-full text-center opacity-40">© 2025 Nuevotech by PauProg | All Rights Reserved | Powered by ReactJS</p>
+                <p className="text-base w-7/10 md:w-8/10 lg:w-full text-center opacity-40">© 2025 Nuevotech by PauProg | <Link to="/legal">All Rights Reserved</Link> | Powered by ReactJS</p>
             </div>
         </div>
     );
