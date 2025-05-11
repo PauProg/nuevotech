@@ -1,6 +1,6 @@
 # 🚀 Nuevotech
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnuevotech-sigma.vercel.app)](https://nuevotech-sigma.vercel.app)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnuevotech.space)](https://nuevotech.space)
 
 Web corporativa para **Nuevotech**, una empresa ficticia dedicada a la instalación de redes, configuraciones de sistemas, páginas web, seguridad y legalidad empresarial.
 
