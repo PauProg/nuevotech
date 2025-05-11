@@ -1,12 +1,69 @@
-# React + Vite
+# 🚀 Nuevotech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnuevotech-sigma.vercel.app)](https://nuevotech-sigma.vercel.app)
 
-Currently, two official plugins are available:
+Web corporativa para **Nuevotech**, una empresa ficticia dedicada a la instalación de redes, configuraciones de sistemas, páginas web, seguridad y legalidad empresarial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Vista previa de Nuevotech](public/preview.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📚 Descripción
+
+Este proyecto ha sido desarrollado como trabajo final para el instituto, utilizando **React** y estructurado para ser fácilmente comprensible por personas sin conocimientos técnicos.
+
+Incluye:
+- Diseño responsive
+- Navegación con React Router
+- Páginas informativas simuladas
+- Estilo profesional y moderno
+
+---
+
+## 🛠️ Tecnologías usadas
+
+- React
+- React Router DOM
+- Vite
+- Tailwind CSS
+
+---
+
+## 🚀 Cómo ejecutarlo localmente
+
+1. Clona el repositorio:
+   
+   ```bash
+   git clone https://github.com/PauProg/nuevotech.git
+   cd nuevotech
+
+2. Instala las dependencias:
+   
+   ```bash
+   npm install
+
+3. Ejecuta el servidor de desarrollo:
+   
+   ```bash
+   npm run dev
+
+---
+
+## 📁 Estructura básica del proyecto
+
+
+src/
+├── assets/ ├── components/ ├── pages/ ├── App.jsx ├── main.jsx
+
+- `assets/`: Imagenes y recursos.
+- `components/`: Componentes reutilizables.
+- `pages/`: Vistas principales.
+- `App.jsx`: Componente raíz.
+- `main.jsx`: Punto de entrada.
+
+---
+
+## 👤 Autor
+
+Desarrollado por [PauProg](https://www.github.com/pauprog)
