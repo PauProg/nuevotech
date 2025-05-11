@@ -25,3 +25,268 @@ html, body {
     opacity: 1;
     transform: translateY(0);
 }
+
+
+/* Nosotros */
+
+.nosotros {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.valores {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.bloqueValor {
+    padding: 20px;
+}
+
+.bloqueValor:nth-child(2) {
+    background-color: #575EFE;
+    border-color: #575EFE;
+}
+
+.bloqueValor:nth-child(3) p {
+    width: 90%;
+}
+
+.tituloCompanias {
+    margin-bottom: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-image: url("./assets/header-bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 30px 0 50px 0;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.favicon {
+    margin-top: 60px;
+}
+
+.h3 {
+    margin-top: 10px;
+}
+
+.contactos {
+    margin-top: 30px;
+}
+
+.item {
+    padding: 15px 30px;
+}
+
+.socialMedia {
+    padding: 10px 20px;
+}
+
+@media (width < 48rem) {
+    .favicon {
+        margin-top: 30px;
+    }
+
+    .contactos {
+        margin-top: 15px;
+    }
+
+    .footer {
+        margin: 0 0 50px 0;
+    }
+}
+
+
+/* About Home */
+
+.about {
+    padding: 40px 0 30px 0;
+    margin-bottom: 30px;
+}
+
+.h2 {
+    margin-bottom: 40px;
+}
+
+.texto {
+    padding: 0 55px;
+}
+
+@media (width < 64rem) {
+    .texto {
+        padding: 0 20px;
+    }
+
+    .bloqueInfo {
+        padding-bottom: 60px;
+    }
+}
+
+
+/* Header Contacto */
+
+.headerContacto {
+    background-image: url("./assets/header-bg.webp");
+    margin-top: -140px;
+    padding-bottom: 120px;
+}
+
+
+/* Header */
+
+.header {
+    background-image: url("./assets/header-bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -140px;
+}
+
+.titulo {
+    margin-bottom: 15px;
+}
+
+.button{
+    margin-top: 30px;
+    padding: 15px 30px;
+}
+
+
+/* Header Legal */
+
+.headerContacto {
+    background-image: url("./assets/header-bg.webp");
+    margin-top: -140px;
+    padding-bottom: 120px;
+}
+
+.h1Header {
+    padding: 0 20px;
+}
+
+
+/* Services Home */
+
+.h2 {
+    margin-top: 60px;
+}
+
+.servicios {
+    padding-bottom: 30px;
+}
+
+.services {
+    margin-top: 30px;
+}
+
+.service {
+    padding: 30px 0 40px 0;
+}
+
+.h3 {
+    margin: 0 35px;
+}
+
+.p {
+    margin: 0 50px 25px 50px;
+}
+
+@media (width < 48rem) {
+    .p {
+        margin: 0 10px 20px 10px;
+    }
+}
+
+
+/* Navbar */
+
+.navbar{
+    margin-top: 32px;
+    z-index: 20;
+    padding: 25px 32px;
+}
+
+
+/* Separador */
+
+.separador {
+    margin: 30px 0;
+}
+
+
+/* Services */
+
+.botonContacto {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.servicioUnico:first-of-type {
+    padding: 0 0 20px 0;
+}
+
+.titulo {
+    margin-bottom: 40px;
+}
+
+.servicioUnico {
+    padding: 20px 0;
+}
+
+.h3 {
+    margin-bottom: 20px;
+}
+
+.information {
+    margin-bottom: 30px;
+}
+
+.iconos {
+    margin-bottom: 30px;
+}
+
+
+/* Contacto */
+
+.contacto {
+    margin-top: -70px;
+}
+
+.formulario {
+    padding: 60px 40px;
+}
+
+.input {
+    padding: 10px;
+}
+
+.botonContactoContacto {
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Legal */
+
+.informaciones {
+    padding: 40px 0;
+}
+
+.tituloSeccion {
+    margin-bottom: 20px;
+}
+
+.pIconos {
+    margin-bottom: 10px;
+}

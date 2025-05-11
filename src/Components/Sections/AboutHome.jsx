@@ -1,4 +1,3 @@
-import "./AboutHome.css";
 import Equipo from "../../assets/Equipo-multidisciplinar-con-experiencia-real.webp";
 import Solucion from "../../assets/Soluciones-100-personalizadas.webp";
 import Atencion from "../../assets/Atención-cercana-y-sin-tecnicismos.webp";

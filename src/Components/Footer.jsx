@@ -1,4 +1,3 @@
-import "./Footer.css";
 import Icon from "/favicon.webp";
 import { useLocation, Link } from "react-router-dom";
 import { Separador } from "./Separador";

@@ -1,5 +1,4 @@
 import { HeaderLegal } from "../Components/Sections/HeaderLegal";
-import "./Legal.css";
 
 export const Legal = () => {
 

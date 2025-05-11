@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { RevealOnScroll } from "../Components/RevealOnScroll";
-import "./Services.css"
 import Redes from "../assets/Instalación-y-mantenimiento-de-redes.webp"
 import Sistemas from "../assets/Configuración-de-sistemas-operativos.webp"
 import Web from "../assets/Desarrollo-de-sitios-web-modernos-y-funcionales.webp"

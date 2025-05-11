@@ -1,5 +1,3 @@
-import './HeaderLegal.css';
-
 export const HeaderLegal = () => {
     return (
         <div className={`headerContacto bg-cover bg-right-top bg-fixed min-h-[55vh] min-w-screen flex flex-col items-center justify-end`}>

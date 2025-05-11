@@ -1,4 +1,3 @@
-import "./Contact.css";
 import Icon from "/favicon.webp";
 import ContactImg from "../assets/contact.webp";
 import { HeaderContacto } from "../Components/Sections/HeaderContacto";

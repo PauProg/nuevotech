@@ -1,4 +1,3 @@
-import "./Nosotros.css";
 import { TableNosotros } from "../Components/Sections/TableNosotros";
 
 export const Nosotros = () => {

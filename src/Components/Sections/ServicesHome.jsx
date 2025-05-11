@@ -1,4 +1,3 @@
-import "./ServicesHome.css";
 import redImg from "../../assets/Instalación-y-mantenimiento-de-redes.webp";
 import sistemasImg from "../../assets/Configuración-de-sistemas-operativos.webp";
 import webImg from "../../assets/Desarrollo-de-sitios-web-modernos-y-funcionales.webp";
