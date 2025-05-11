@@ -18,7 +18,7 @@ export const Legal = () => {
         },
         {
             title: "5. Enlaces a terceros",
-            content: "este sitio web puede contener enlaces a otros sitios web. Nuevotech no se hace responsable del contenido o la disponibilidad de estos sitios, ni de los daños que puedan derivarse de su uso."
+            content: "Este sitio web puede contener enlaces a otros sitios web. Nuevotech no se hace responsable del contenido o la disponibilidad de estos sitios, ni de los daños que puedan derivarse de su uso."
         },
         {
             title: "6. Modificaciones",
