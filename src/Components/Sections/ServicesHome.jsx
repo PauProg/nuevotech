@@ -8,7 +8,7 @@ import { RevealOnScroll } from "../../Components/RevealOnScroll";
 export const ServicesHome = () => {
     const servicios = [
         {
-            titulo: "Instalación y mantenimiento de redes",
+            titulo: "Instalación y mantenimiento de redes empresariales",
             descripcion: "Diseñamos e implementamos infraestructuras de red adaptadas a las necesidades de tu negocio, con garantía de estabilidad, velocidad y seguridad.",
             img: redImg
         },
