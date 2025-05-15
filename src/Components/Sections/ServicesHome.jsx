@@ -13,7 +13,12 @@ export const ServicesHome = () => {
             img: redImg
         },
         {
-            titulo: "Configuración de sistemas operativos",
+            titulo: "Asesoramiento legal y cumplimiento normativo en tecnología",
+            descripcion: "Te guiamos para cumplir con la normativa vigente (RGPD, LSSI, etc.) y elaboramos documentos legales personalizados para tu actividad online.",
+            img: legalImg
+        },
+        {
+            titulo: "Configuración de sistemas operativos y servidores",
             descripcion: "Optimizamos tus dispositivos, servidores y sistemas operativos para que funcionen con el máximo rendimiento, fiabilidad y seguridad.",
             img: sistemasImg
         },
@@ -21,11 +26,6 @@ export const ServicesHome = () => {
             titulo: "Desarrollo de sitios web modernos y funcionales",
             descripcion: "Creamos páginas web que transmiten profesionalidad, con diseño responsive, fáciles de usar y optimizadas para buscadores.",
             img: webImg
-        },
-        {
-            titulo: "Asesoramiento legal y cumplimiento normativo en tecnología",
-            descripcion: "Te guiamos para cumplir con la normativa vigente (RGPD, LSSI, etc.) y elaboramos documentos legales personalizados para tu actividad online.",
-            img: legalImg
         },
         {
             titulo: "Ciberseguridad integral para empresas",

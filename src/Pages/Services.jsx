@@ -89,19 +89,19 @@ export const Services = () => {
             description: "Protege tu empresa frente a amenazas digitales con nuestras soluciones de ciberseguridad. Desde antivirus avanzados hasta monitorización en tiempo real.",
             icons: [
                 {
-                    class: "bx bx-signal-5",
+                    class: "bx bx-search",
                     text: "Análisis de vulnerabilidades"
                 },
                 {
-                    class: "bx bx-buildings",
+                    class: "bx bxs-hot",
                     text: "Instalación de firewalls y antivirus"
                 },
                 {
-                    class: "bx bx-cog",
+                    class: "bx bx-envelope",
                     text: "Respuesta ante incidentes y recuperación"
                 },
                 {
-                    class: "bx bxs-hand",
+                    class: "bx bx-cloud",
                     text: "Seguridad en la nube"
                 }
             ],
@@ -114,11 +114,11 @@ export const Services = () => {
             description: "Ofrecemos asesoramiento legal adaptado al entorno digital. Te ayudamos a cumplir con las normativas como RGPD y LSSI de forma clara y eficiente.",
             icons: [
                 {
-                    class: "bx bx-signal-5",
+                    class: "bx bx-paperclip",
                     text: "Redacción de textos legales"
                 },
                 {
-                    class: "bx bx-buildings",
+                    class: "bx bxs-file-html",
                     text: "Auditoría legal de páginas web"
                 },
                 {
