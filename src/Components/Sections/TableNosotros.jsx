@@ -1,6 +1,6 @@
 export const TableNosotros = () => {
     return (
-        <table className="w-full md:w-2/5 h-[55vh] table-auto border-separate border-spacing-0 border-[#373A5E] border-2 bg-[#161934] rounded-xl overflow-hidden">
+        <table className="w-full lg:w-2/5 h-[55vh] table-auto border-separate border-spacing-0 border-[#373A5E] border-2 bg-[#161934] rounded-xl overflow-hidden">
             <tbody>
                 <tr>
                     <td className="w-1/2 font-semibold text-2xl md:text-3xl lg:text-4xl h-36 text-center align-middle border-b border-r border-[#373A5E]">

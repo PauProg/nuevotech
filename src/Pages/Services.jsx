@@ -156,7 +156,7 @@ export const Services = () => {
                                     )
                                 })}
                             </div>
-                            <Link to="/contacto" className="botonContacto text-lg md:text-xl lg:text-2xl font-medium border-2 bg-transparent border-[#522bde] hover:bg-[#522bde] rounded-lg transition-all duration-300">{service.button}</Link>
+                            <Link to="/contacto" className="botonContacto text-lg md:text-xl lg:text-2xl font-medium border-2 bg-transparent border-[#522bde] hover:bg-[#522bde] rounded-lg transition-all duration-300 text-center">{service.button}</Link>
                         </div>
                     </RevealOnScroll>
                 )
